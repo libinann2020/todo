@@ -16,7 +16,7 @@ View Demo
 https://libinann2020.github.io/todo/
 
 Recommended IDE setup
-[VS Code]
+VS Code
 
 deployment reference site
 https://medium.com/swlh/deploy-vue-app-to-github-pages-2ada48d7397e

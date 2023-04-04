@@ -1,4 +1,4 @@
-echo Hello World
+# echo Hello World
 #!/usr/bin/env sh
 # abort on errors
 set -e
@@ -14,4 +14,4 @@ git commit -m 'deploy'
 git push -f git@github.com:libinann2020/todo.git master:gh-pages
 cd -
 
-Hello World
+# Hello World
