@@ -1,11 +1,11 @@
-echo Hello World
+# echo Hello World
 #!/usr/bin/env sh
 # abort on errors
 set -e
 # build
 npm run dev
 # navigate into the build output directory
-cd dist
+# cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 git init
@@ -14,4 +14,4 @@ git commit -m 'deploy'
 git push -f git@github.com:libinann2020/todo.git master:gh-pages
 cd -
 
-Hello World
+# Hello World
