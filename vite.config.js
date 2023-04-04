@@ -3,7 +3,10 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  publicPath: process.env.NODE_ENV === 'production'
+  base: process.env.NODE_ENV === 'production'
     ? '/todo/'
-    : '/'
+    : '/',
+  build: {
+    assetsDir: 'dist'
+  }  
 })
