@@ -8,4 +8,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 
 Build a Todo List App in Vue JS with LocalStorage in 2022 | Vue 3 for Beginners - https://snipboard.io/eLS8jf.jpg 
+
 https://www.youtube.com/watch?v=qhjxAP1hFuI
+
+npm run dev
